@@ -9,6 +9,6 @@ public class ipDefanging {
         System.out.println("IP Address: " + defangIPaddr(ip));
     }
     protected static String defangIPaddr(String ip) {
-        return ip.replace(".","[.]");
+        return ip.replace(".","[.]"); // a defanged IP replaces all dots (.) with [.]
     }
 }

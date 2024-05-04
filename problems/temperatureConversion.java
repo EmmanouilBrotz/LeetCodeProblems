@@ -10,6 +10,6 @@ public class temperatureConversion {
 
     }
     protected static double[] convertTemperature(double celsius){
-        return new double[] {celsius + 273.15, (celsius * 1.80) + 32.00};
+        return new double[] {celsius + 273.15, (celsius * 1.80) + 32.00}; // f = c * 1.8 + 32, k = c + 273.15
     }
 }
