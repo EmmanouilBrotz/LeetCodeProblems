@@ -11,8 +11,8 @@ public class ScoreofaString {
     }
     static int scoreOfString(String s){
         int sum = 0;
-        String[] input = s.split("");
-        for(int i = 0; i < input.length - 1; i++){
+        String[] input = s.split(""); // split string into array of chars
+        for(int i = 0; i < input.length - 1; i++){ //calculate ASCII value
             sum = sum + abs((int) input[i].charAt(0) - (int) input[i + 1].charAt(0));
 
         }
