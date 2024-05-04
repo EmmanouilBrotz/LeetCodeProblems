@@ -8,7 +8,7 @@ public class ipDefanging {
         keyboard.close();
         System.out.println("IP Address: " + defangIPaddr(ip));
     }
-    public static String defangIPaddr(String ip) {
+    protected static String defangIPaddr(String ip) {
         return ip.replace(".","[.]");
     }
 }

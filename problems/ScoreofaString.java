@@ -9,7 +9,7 @@ public class ScoreofaString {
         System.out.print("ASCII Value: ");
         System.out.print(scoreOfString(answer));
     }
-    static int scoreOfString(String s){
+    protected static int scoreOfString(String s){
         int sum = 0;
         String[] input = s.split(""); // split string into array of chars
         for(int i = 0; i < input.length - 1; i++){ //calculate ASCII value
