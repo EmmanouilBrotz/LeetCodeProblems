@@ -8,9 +8,9 @@ public class maximumNumberofWordsFoundinSentences {
     }
     protected static int mostWordsFound(String[] sentences){
         int count = 0;
-        for(String sentence: sentences){
-            String[] splitSentence = sentence.split(" ");
-            if(splitSentence.length > count){
+        for(String sentence: sentences){ // take each sentence
+            String[] splitSentence = sentence.split(" "); // split them into words
+            if(splitSentence.length > count){ // count the words, compare
                 count = splitSentence.length;
             }
         }
